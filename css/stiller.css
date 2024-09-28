@@ -1,8 +1,8 @@
-p {
-  color: rgb(7, 7, 81);
-  font-weight: bold;
-  text-align: center;
+.puchun {
+  color: blueviolet;
+  font-size: medium;
+  font-style: italic;
 }
 h1 {
-  color: red;
+  color: rgb(98, 0, 255);
 }
