@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/portfolio/css/stylesheet.css" />
+    <link rel="stylesheet" href="/portfolio/css/main.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <!-- Header -->
-    <header class="main-header">
+    <div class="container">
+      <header class="main-header"></header>
+      <div class="main-navigation__brand">
+        <a href="index.html">
+          <img src="/portfolio/image/me.jpg" alt="Logo" />
+        </a>
+      </div>
       <nav class="main-navigation">
         <ul class="main-navigation__items">
-          <li class="main-navigation__item">
+          <li class="main-navigation__item active">
             <a href="">Asosiy</a>
           </li>
           <li class="main-navigation__item">
@@ -34,14 +40,30 @@
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
     <!-- /Header -->
 
-    <!-- Main section-->
-    <section id="main-section">
-      <h1>Asosiy</h1>
-    </section>
-    <!-- /Main section-->
+    <!-- Main section -->
+    <div class="container">
+      <section id="main-section" class="main-section">
+        <div class="main-section__info">
+          <h4 class="main-section__welcome to-uppercase">Salom hammaga!</h4>
+          <h1 class="main-section__introduction to-uppercase">
+            I am Muhammadqodir
+          </h1>
+          <h3 class="main-section__position to-uppercase">.net dasturchi</h3>
+          <button type="button" class="main-section__action to-uppercase">
+            Ishlarimni ko'ring
+          </button>
+        </div>
+        <div class="main-section__image">
+          <img src="/portfolio/image/me.jpg" alt="my image" />
+        </div>
+      </section>
+      <div class="cleafix"></div>
+    </div>
+
+    <!-- /Main section -->
 
     <!-- About me section -->
     <section id="about-me">
@@ -83,27 +105,13 @@
     <footer>
       <nav>
         <ul>
-          <li>
-            <a href="">Asosiy</a>
-          </li>
-          <li>
-            <a href="">Men haqimda</a>
-          </li>
-          <li>
-            <a href="">Xizmatlar</a>
-          </li>
-          <li>
-            <a href="">Mijozlar</a>
-          </li>
-          <li>
-            <a href="">Portfolio</a>
-          </li>
-          <li>
-            <a href="">Blog</a>
-          </li>
-          <li>
-            <a href="">Sheriklar</a>
-          </li>
+          <li><a href="">Asosiy</a></li>
+          <li><a href="">Men haqimda</a></li>
+          <li><a href="">Xizmatlar</a></li>
+          <li><a href="">Mijozlar</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Sheriklar</a></li>
         </ul>
       </nav>
     </footer>
