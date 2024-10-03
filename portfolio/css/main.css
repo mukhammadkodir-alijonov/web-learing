@@ -9,7 +9,7 @@ body {
   padding: 0 20px;
 }
 
-.cleafix {
+.clearfix {
   clear: both;
 }
 
@@ -105,14 +105,6 @@ body {
 
 .main-section__action {
   margin-top: 30px;
-  border: none;
-  background-color: #2f19c0;
-  color: white;
-  font-weight: 500;
-  font-size: 10px;
-  padding: 20px 40px;
-  cursor: pointer;
-  border-radius: 7px;
 }
 
 .main-section__image {
@@ -143,4 +135,68 @@ body {
   font-size: 16px;
   color: #797979;
   font-weight: 300;
+}
+
+.section-subtitle {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #797979;
+  text-transform: uppercase;
+}
+
+.section-titile {
+  margin-top: 5px;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #05364d;
+}
+
+.button {
+  border: none;
+  background-color: #2f19c0;
+  color: white;
+  font-weight: 500;
+  font-size: 10px;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.blur-line {
+  display: inline-block;
+  margin-left: 5px;
+  width: 80px;
+  height: 4px;
+  background-color: rgba(237, 35, 159, 0.6);
+  filter: blur(4px);
+  border-radius: 4px;
+  height: 8px;
+}
+
+/*About me section*/
+
+.about-me {
+  padding: 100px 0;
+}
+
+.about-me > div {
+  width: 50%;
+  float: left;
+}
+
+.about-me__img img {
+  width: 300px;
+}
+
+.about-me__description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #797979;
+  line-height: 27px;
+}
+
+.about-me__action {
+  margin-top: 40px;
 }
